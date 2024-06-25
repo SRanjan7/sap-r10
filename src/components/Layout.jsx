@@ -61,13 +61,14 @@ const AppLayout = () => {
             onClick={() => setCollapsed(!collapsed)}
             style={{
               fontSize: "16px",
-              border: "2px solid blue",
+              border: "2px solid  #8cccff",
+
               //   width: 64,
               //   height: 64,
             }}
           />
 
-          <span className="text-lg ml-6">Inventory Tool</span>
+          <span className="text-2xl font-semibold ml-6">Inventory Tool</span>
         </Header>
         <Content
           style={{

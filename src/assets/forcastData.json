@@ -1,0 +1,782 @@
+[
+  {
+    "product_id": "96725",
+    "bucket_week": "01",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "02",
+    "dep_req_qty": "0",
+    "indep_req_qty": "528"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "03",
+    "dep_req_qty": "0",
+    "indep_req_qty": "2844"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "04",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1295"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "05",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1951"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "06",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1962"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "07",
+    "dep_req_qty": "0",
+    "indep_req_qty": "2057"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "08",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1684"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "09",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1842"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "010",
+    "dep_req_qty": "0",
+    "indep_req_qty": "2118"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "011",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1580"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "012",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1856"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "013",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1670"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "014",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1881"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "015",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1464"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "016",
+    "dep_req_qty": "0",
+    "indep_req_qty": "3147"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "017",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1264"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "018",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1919"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "019",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1931"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "020",
+    "dep_req_qty": "0",
+    "indep_req_qty": "2024"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "021",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1656"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "022",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1866"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "023",
+    "dep_req_qty": "0",
+    "indep_req_qty": "2145"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "024",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1599"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "025",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1879"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "026",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1880"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "027",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1880"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "028",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1880"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "029",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1880"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "030",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1880"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "031",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1856"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "032",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1856"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "033",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1856"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "034",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1855"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "035",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1858"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "036",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1858"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "037",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1858"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "038",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1858"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "039",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1840"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "040",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1840"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "041",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1840"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "042",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1840"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "043",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1829"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "044",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1850"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "045",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1850"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "046",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1850"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "047",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1850"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "048",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1849"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "049",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1849"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "050",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1849"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "051",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "052",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "053",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "054",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "055",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "056",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "057",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "058",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "059",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "060",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "061",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "062",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "063",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1848"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "064",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "065",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "066",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "067",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "068",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "069",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "070",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "071",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "072",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1845"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "073",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1856"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "074",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "075",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "076",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "077",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "078",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "079",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "080",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "081",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "082",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1847"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "083",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "084",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "085",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "086",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "087",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "088",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "089",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "090",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1934"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "091",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1937"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "092",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1937"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "093",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1937"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "094",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1937"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "095",
+    "dep_req_qty": "0",
+    "indep_req_qty": "1925"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "096",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "097",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "098",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "099",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0100",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0101",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0102",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0103",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0104",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0105",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0106",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0107",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0108",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0109",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0110",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0111",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0112",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0113",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0114",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0115",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0116",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0117",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0118",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0119",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0120",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0121",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0122",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0123",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0124",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0125",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0126",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0127",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0128",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0129",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  },
+  {
+    "product_id": "96725",
+    "bucket_week": "0130",
+    "dep_req_qty": "0",
+    "indep_req_qty": "0"
+  }
+]

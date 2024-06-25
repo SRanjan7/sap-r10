@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from "react";
-import { Button, Checkbox, Modal, Spin, Table } from "antd";
-import jsonData from "../assets/datasource.json";
+import React, { useEffect, useMemo, useState } from "react";
+import { Button, Checkbox, Spin, Table } from "antd";
+import jsonData from "../assets/simulation.json";
 import { DeploymentUnitOutlined } from "@ant-design/icons";
-import RunSim from "./RunSim";
 
-function ServiceReport() {
-  const [selectedStock, setSelectedStock] = useState(null);
-  console.log("selectedStock: ", selectedStock);
-
+function RunSim({ selectedStock }) {
+  const [filteredData, setFilteredData] = useState([]);
+  // const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const formatDataForTable = (data) => {
     const filteredData = data.filter((item) => item.ctry === "AU");
-
+    console.log("filteredData: ", filteredData);
     return filteredData.map((item) => ({
       key: item.id,
       createdAt: new Date(parseInt(item.createdAt)).toLocaleDateString(),
@@ -110,25 +108,18 @@ function ServiceReport() {
       // Add more fields as needed
     }));
   };
-  const [open, setOpen] = useState(false);
-  const [confirmLoading, setConfirmLoading] = useState(false);
-  const [modalText, setModalText] = useState("Content of the modal");
-  const showModal = (stock) => {
-    setSelectedStock(stock);
-    setOpen(true);
-  };
-  const handleOk = () => {
-    setModalText("The modal will be closed after two seconds");
-    setConfirmLoading(true);
-    setTimeout(() => {
-      setOpen(false);
-      setConfirmLoading(false);
-    }, 2000);
-  };
-  const handleCancel = () => {
-    console.log("Clicked cancel button");
-    setOpen(false);
-  };
+
+  useEffect(() => {
+    if (selectedStock) {
+      const filtered = jsonData.filter(
+        (item) =>
+          item.avilablestock == selectedStock.avilablestock &&
+          item.totalinv == selectedStock.totalinv
+      );
+      setFilteredData(filtered);
+    }
+  }, [selectedStock]);
+
   const data = jsonData;
   const formattedData = formatDataForTable(data);
   const colorMapping = {
@@ -145,40 +136,44 @@ function ServiceReport() {
 
   const columns = [
     {
-      key: "prod_desc",
-      title: "Description",
-      dataIndex: "prod_desc",
+      key: "display",
+      title: "",
+      dataIndex: "display",
       fixed: "left",
       width: 200,
+      font: 10,
+      className: "no-border-column",
+
+      render: (text, record) => ({
+        children: text,
+        props: {
+          style: {
+            border: "0px 0px",
+          },
+        },
+      }),
     },
-    {
-      key: "product_id",
-      title: "Product ID",
-      dataIndex: "product_id",
-      width: 132,
-    },
+
     {
       key: "w1",
       title: "Initial",
       dataIndex: "w1",
-      width: 70,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
           style: {
             textAlign: "center",
-
             background: getBackgroundColor(record.w1_cc),
           },
         },
       }),
-      style: { textAlign: "center" },
     },
     {
       key: "w2",
       title: "Jun 12",
       dataIndex: "w2",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -193,7 +188,7 @@ function ServiceReport() {
       key: "w3",
       title: "Jun 17",
       dataIndex: "w3",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -208,7 +203,7 @@ function ServiceReport() {
       key: "w4",
       title: "Jun 24",
       dataIndex: "w4",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -223,7 +218,7 @@ function ServiceReport() {
       key: "w5",
       title: "Jul 01",
       dataIndex: "w5",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -238,7 +233,7 @@ function ServiceReport() {
       key: "w6",
       title: "Jul 08",
       dataIndex: "w6",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -253,7 +248,7 @@ function ServiceReport() {
       key: "w7",
       title: "Jul 15",
       dataIndex: "w7",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -268,7 +263,7 @@ function ServiceReport() {
       key: "w8",
       title: "Jul 22",
       dataIndex: "w8",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -283,7 +278,7 @@ function ServiceReport() {
       key: "w9",
       title: "Jul 29",
       dataIndex: "w9",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -298,7 +293,7 @@ function ServiceReport() {
       key: "w10",
       title: "Aug 05",
       dataIndex: "w10",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -313,7 +308,7 @@ function ServiceReport() {
       key: "w11",
       title: "Aug 12",
       dataIndex: "w11",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -328,7 +323,7 @@ function ServiceReport() {
       key: "w12",
       title: "Aug 19",
       dataIndex: "w12",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -343,7 +338,7 @@ function ServiceReport() {
       key: "w13",
       title: "Aug 26",
       dataIndex: "w13",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -358,7 +353,7 @@ function ServiceReport() {
       key: "w14",
       title: "Sep 02",
       dataIndex: "w14",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -373,7 +368,7 @@ function ServiceReport() {
       key: "w15",
       title: "Sep 09",
       dataIndex: "w15",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -388,7 +383,7 @@ function ServiceReport() {
       key: "w16",
       title: "Sep 16",
       dataIndex: "w16",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -403,7 +398,7 @@ function ServiceReport() {
       key: "w17",
       title: "Sep 23",
       dataIndex: "w17",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -418,7 +413,7 @@ function ServiceReport() {
       key: "w18",
       title: "Sep 30",
       dataIndex: "w18",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -433,7 +428,7 @@ function ServiceReport() {
       key: "w19",
       title: "Oct 07",
       dataIndex: "w19",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -448,7 +443,7 @@ function ServiceReport() {
       key: "w20",
       title: "Oct 14",
       dataIndex: "w20",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -463,7 +458,7 @@ function ServiceReport() {
       key: "w21",
       title: "Oct 21",
       dataIndex: "w21",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -478,7 +473,7 @@ function ServiceReport() {
       key: "w22",
       title: "Oct 28",
       dataIndex: "w22",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -493,7 +488,7 @@ function ServiceReport() {
       key: "w23",
       title: "Nov 04",
       dataIndex: "w23",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -508,7 +503,7 @@ function ServiceReport() {
       key: "w24",
       title: "Nov 11",
       dataIndex: "w24",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -523,7 +518,7 @@ function ServiceReport() {
       key: "w25",
       title: "Nov 18",
       dataIndex: "w25",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -538,7 +533,7 @@ function ServiceReport() {
       key: "w26",
       title: "Nov 25",
       dataIndex: "w26",
-      width: 60,
+      width: 90,
       render: (text, record) => ({
         children: text,
         props: {
@@ -549,160 +544,50 @@ function ServiceReport() {
         },
       }),
     },
-    { key: "market", title: "Market", dataIndex: "ctry", width: 120 },
-    {
-      key: "panda_code",
-      title: "PandaA Code",
-      dataIndex: "panda_code",
-      width: 140,
-    },
-    { key: "gmc", title: "GMC", dataIndex: "gmc", width: 120 },
-    { key: "brand", title: "Brand", dataIndex: "brand", width: 120 },
-    { key: "mfg_plant", title: "MFG Plant", dataIndex: "plant", width: 120 },
-    {
-      key: "mrp_controller",
-      title: "MRP controller",
-      dataIndex: "mrp_controller",
-      width: 120,
-    },
-    {
-      key: "Shipper_qty",
-      title: "Shipper Qty",
-      dataIndex: "Shipper_Qty",
-      width: 120,
-    },
-    {
-      key: "Pallet_qty",
-      title: "Pallet Qty",
-      dataIndex: "Pallet_Qty",
-      width: 120,
-    },
-    {
-      key: "from_location",
-      title: "From Location",
-      dataIndex: "fromlocation",
-      width: 120,
-    },
-    {
-      key: "target_inv",
-      title: "Target Inv. (d)",
-      dataIndex: "target_inv",
-      width: 120,
-    },
-    { key: "min_inv", title: "Min Inv. (d)", dataIndex: "min_inv", width: 120 },
-    { key: "max_inv", title: "Max Inv. (d)", dataIndex: "max_inv", width: 120 },
-    {
-      key: "inv_movement_qty",
-      title: "Tot. Inv. Movement",
-      dataIndex: "inv_movement_qty",
-      width: 130,
-    },
-    {
-      key: "curr_stock",
-      title: "Current Week DOS",
-      dataIndex: "inventory_qty",
-      width: 120,
-    },
-    {
-      key: "worst_case",
-      title: "Worst Case",
-      dataIndex: "wrostcase_d",
-      width: 120,
-    },
-    {
-      key: "dc_risk",
-      title: "DC Risk",
-      dataIndex: "wrostcase_v",
-      width: 130,
-      fixed: "right",
-    },
-    // {
-    //   key: "inv_movement_delay",
-    //   title: "Inv. Movement Delay",
-    //   dataIndex: "Inv_delay",
-    //   width: 128,
-    //   fixed: "right",
-    // },
-    // {
-    //   key: "mmtd_sales",
-    //   title: "MTD sales. (d)",
-    //   dataIndex: "mmtd_sales",
-    //   width: 120,
-    //   fixed: "right",
-    // },
-    {
-      key: "action",
-      title: "Action",
-      dataIndex: "comment",
-      width: 150,
-      fixed: "right",
-
-      render: (text, record) => (
-        <Button
-          onClick={() =>
-            showModal({
-              avilablestock: record.avilablestock,
-              totalinv: record.totalinv,
-            })
-          }
-        >
-          <DeploymentUnitOutlined />
-        </Button>
-      ),
-    },
   ];
 
   return (
-    <div className="ServiceReport">
+    <div className="h-[600px] p-6">
       <Table
         columns={columns}
-        dataSource={formattedData}
-        scroll={{ y: 550 }}
+        dataSource={filteredData}
+        scroll={{ x: 490 }}
         pagination={false}
         bordered
       />
-      <Modal
-        title="Simulation"
-        open={open}
-        onOk={handleOk}
-        confirmLoading={confirmLoading}
-        onCancel={handleCancel}
-        width={"1550px"}
-      >
-        <RunSim selectedStock={selectedStock} />
-      </Modal>
+
       <div className={"keys-frame "} style={{ marginTop: "20px" }}>
         <div className="keys-label">Keys:</div>
         <div className="keys-container">
           <div className="keys-group">
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-1" />
               <div className="keys-text">Inv. Equal or Below 0</div>
             </div>
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-2" />
               <div className="keys-text">Inv. Between 0 - Minimum</div>
             </div>
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-3" />
               <div className="keys-text">Inv. Between Min - Target</div>
               {/*  */}
             </div>
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-4" />
               <div className="keys-text">Inv. Between Target - Max</div>
             </div>
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-5" />
               <div className="keys-text">Inv. Above Maximum</div>
             </div>{" "}
             <div className="keys-item">
-              <Checkbox />
+              {/* <Checkbox /> */}
               <div className="keys-color keys-color-6" />
               <div className="keys-text">Equal to 0 and No Target Inv.</div>
             </div>
@@ -713,4 +598,4 @@ function ServiceReport() {
   );
 }
 
-export default ServiceReport;
+export default RunSim;
