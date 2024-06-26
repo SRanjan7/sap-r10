@@ -167,10 +167,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={1}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -194,10 +193,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={2}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -219,10 +217,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={3}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -244,10 +241,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={4}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -269,10 +265,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={5}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -294,10 +289,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={6}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -319,10 +313,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={7}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -344,10 +337,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={8}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -369,10 +361,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={9}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -394,10 +385,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={10}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -419,10 +409,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={11}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -444,10 +433,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={12}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -469,10 +457,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={13}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -494,10 +481,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={14}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -519,10 +505,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={15}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -544,10 +529,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={16}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -569,10 +553,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={17}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -594,10 +577,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={18}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -619,10 +601,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={19}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -644,10 +625,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={20}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -669,10 +649,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={21}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -694,10 +673,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={22}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -719,10 +697,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={23}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -744,10 +721,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={24}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -769,10 +745,9 @@ function ServiceReport() {
         children: (
           <TooltipBar
             title={text}
-            material={record.material}
-            location_id={record.location_id}
-            week="6"
-            month={record.month}
+            avilablestock={record.avilablestock}
+            totalinv={record.totalinv}
+            week={25}
           >
             <span>{text}</span>
           </TooltipBar>
@@ -795,9 +770,9 @@ function ServiceReport() {
           <TooltipBar
             title={text}
             material={record.material}
-            location_id={record.location_id}
-            week="6"
+            product_id={record.product_id}
             month={record.month}
+            week={26}
           >
             <span>{text}</span>
           </TooltipBar>
