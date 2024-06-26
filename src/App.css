@@ -88,3 +88,9 @@
 .no-border-column .ant-table-cell {
   border: none;
 }
+.no-border-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}

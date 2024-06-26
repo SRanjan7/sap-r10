@@ -3,6 +3,7 @@ import { Button, Checkbox, Modal, Spin, Table } from "antd";
 import jsonData from "../assets/datasource.json";
 import { DeploymentUnitOutlined } from "@ant-design/icons";
 import RunSim from "./RunSim";
+import TooltipBar from "./TooltipBar";
 
 function ServiceReport() {
   const [selectedStock, setSelectedStock] = useState(null);
@@ -163,7 +164,17 @@ function ServiceReport() {
       dataIndex: "w1",
       width: 70,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -180,7 +191,17 @@ function ServiceReport() {
       dataIndex: "w2",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -195,7 +216,17 @@ function ServiceReport() {
       dataIndex: "w3",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -210,7 +241,17 @@ function ServiceReport() {
       dataIndex: "w4",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -225,7 +266,17 @@ function ServiceReport() {
       dataIndex: "w5",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -240,7 +291,17 @@ function ServiceReport() {
       dataIndex: "w6",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -255,7 +316,17 @@ function ServiceReport() {
       dataIndex: "w7",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -270,7 +341,17 @@ function ServiceReport() {
       dataIndex: "w8",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -285,7 +366,17 @@ function ServiceReport() {
       dataIndex: "w9",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -300,7 +391,17 @@ function ServiceReport() {
       dataIndex: "w10",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -315,7 +416,17 @@ function ServiceReport() {
       dataIndex: "w11",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -330,7 +441,17 @@ function ServiceReport() {
       dataIndex: "w12",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -345,7 +466,17 @@ function ServiceReport() {
       dataIndex: "w13",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -360,7 +491,17 @@ function ServiceReport() {
       dataIndex: "w14",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -375,7 +516,17 @@ function ServiceReport() {
       dataIndex: "w15",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -390,7 +541,17 @@ function ServiceReport() {
       dataIndex: "w16",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -405,7 +566,17 @@ function ServiceReport() {
       dataIndex: "w17",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -420,7 +591,17 @@ function ServiceReport() {
       dataIndex: "w18",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -435,7 +616,17 @@ function ServiceReport() {
       dataIndex: "w19",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -450,7 +641,17 @@ function ServiceReport() {
       dataIndex: "w20",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -465,7 +666,17 @@ function ServiceReport() {
       dataIndex: "w21",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -480,7 +691,17 @@ function ServiceReport() {
       dataIndex: "w22",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -495,7 +716,17 @@ function ServiceReport() {
       dataIndex: "w23",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -510,7 +741,17 @@ function ServiceReport() {
       dataIndex: "w24",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -525,7 +766,17 @@ function ServiceReport() {
       dataIndex: "w25",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
@@ -540,7 +791,17 @@ function ServiceReport() {
       dataIndex: "w26",
       width: 60,
       render: (text, record) => ({
-        children: text,
+        children: (
+          <TooltipBar
+            title={text}
+            material={record.material}
+            location_id={record.location_id}
+            week="6"
+            month={record.month}
+          >
+            <span>{text}</span>
+          </TooltipBar>
+        ),
         props: {
           style: {
             textAlign: "center",
